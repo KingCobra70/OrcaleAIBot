@@ -6,3 +6,7 @@ This code is a Python program that runs a chatbot and image generator using Open
 When a user sends a message starting with "!chat", the program sends the message to the GPT-3 API and returns a response. When a user sends a message starting with "!img", the program sends the message to the GPT-3 API to generate an image based on the text, which is then returned to the user as a URL. The program also includes an on_connect event handler to log in to Discord and monitor the configured guilds.
 
 The code uses Python's asyncio library to handle asynchronous operations and improve the responsiveness of the bot. It also includes exception handling to handle errors that may occur when interacting with the APIs. Overall, this code provides a basic example of how to use OpenAI's GPT-3 API and the Discord API to create a chatbot and image generator.
+
+!chat: This command allows you to chat with the GPT-3.5 model, which is powered by the OpenAI API. When you send a message starting with !chat, the bot will generate a response based on the message history in the channel, using the GPT-3.5 model. The bot will respond with the generated message.
+
+!img: This command allows you to generate an image based on a prompt. When you send a message starting with !img, the bot will generate an image based on the message history in the channel, using the OpenAI API. The bot will respond with a link to the generated image.
